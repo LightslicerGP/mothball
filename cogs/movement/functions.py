@@ -578,7 +578,7 @@ def inertia(args, inertia = 0.005):
     """
     args['player'].inertia_threshold = inertia
 
-@command(aliases = ['pre'])
+@command(aliases = ['p'])
 def precision(args, precision = 6):
     args['player'].printprecision = precision
 
